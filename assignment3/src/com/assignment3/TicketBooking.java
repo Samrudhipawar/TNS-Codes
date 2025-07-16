@@ -109,7 +109,8 @@ public class TicketBooking {
         System.out.println("=== Thank You! ===");
     }
 
-    public static void main(String[] args) {
+    @SuppressWarnings("resource")
+	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("=== Stage Show Ticket Booking System ===");
